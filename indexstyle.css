@@ -1,0 +1,60 @@
+
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body{
+ background-image: url(Night-Sky.jpg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ background-position:center ;
+ 
+
+ 
+}
+.container
+{
+    height: 100%;   
+}
+.row{
+    height:50%;   /*50% of the container*/
+    width:100%;
+}
+.buffer
+{
+    color:red;
+    height:50%;   /*50% of the row*/
+    
+}
+hr{
+    height:10%;               /*without the boostrap grid if we write hr height as 1% it will mean 1% of the body height*/
+                              /*with the boostrap grid if we write hr height as 1% it will mean 1% of the .container class div height*/
+    background-color: black;
+    
+    width: 50%;
+
+    opacity: 100%;
+    
+    
+    margin-left: 25%; /*overwrite the default margin properties to avoid issues of alignment*/
+    
+
+    ;
+}
+
+.col-12
+{
+    text-align: center;
+}
+h1{
+    color:white;
+}
+.btn
+{
+    border-radius: 50%;
+    background-color:#53a8b6;
+}
+.btn:hover{
+    background-color: blue;
+}
